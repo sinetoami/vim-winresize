@@ -1,3 +1,11 @@
+" =============================================================================
+" Plugin Name: vim-winresize
+" Author:      Sinésio 'sineto' Neto <sinetoami [at] gmail [dot] com>
+" Version:     0.0.1 - 2018 May 03
+" License:     Distributed under the terms of the Vim license.
+" Description: A simple way to resize split windows in Vim.
+" =============================================================================
+
 function! s:splresize(dir)
   if a:dir == '<'
     return 'vertical resize +2'
